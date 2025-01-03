@@ -28,8 +28,9 @@ Make sure you have the following installed:
 - A web browser (e.g., Chrome, Firefox)
 - A code editor (e.g., Visual Studio Code)
 - Node.js (if using additional tools like live server)
-![Screenshot (125)](https://github.com/user-attachments/assets/237b324c-1420-434f-b25b-2ee2eb83b011)
-![Screenshot (126)](https://github.com/user-attachments/assets/f2ef59e7-d366-4f31-bfbe-68f149db2942)
-![Screenshot (127)](https://github.com/user-attachments/assets/4529f2f5-46e8-4160-841a-fdf8644d02c0)
-![Screenshot (128)](https://github.com/user-attachments/assets/2d995890-c97e-4d74-958c-6f0e5fc1f2fb)
+![Screenshot (125)](https://github.com/user-attachments/assets/080a7f02-538f-42f0-a786-47acf1376cb0)
+![Screenshot (126)](https://github.com/user-attachments/assets/790146be-64c6-4764-999d-f50e607a3db1)
+![Screenshot (127)](https://github.com/user-attachments/assets/57b7ce8b-01b8-4c47-b324-741027951f6e)
+![Screenshot (128)](https://github.com/user-attachments/assets/6b01da00-3b40-4188-bd5e-84b8574c7b90)
+
 
