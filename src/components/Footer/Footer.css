@@ -5,6 +5,10 @@
   position: relative;
   margin-top: -7rem;
 }
+.mail{
+  color: black;
+  opacity: 70%;
+}
 .f-content {
   position: absolute;
   display: flex;

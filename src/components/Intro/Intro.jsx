@@ -2,14 +2,13 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
-import glassesimoji from "../../img/glassesimoji.png";
+import boy from "../../img/raj.png";
 import thumbup from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
+import react from "../../img/react.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+import gmail1 from "../../img/gmail1.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -23,25 +22,31 @@ const Intro = () => {
 
   return (
     <div className="Intro" id="Intro">
-      {/* left name side */}
+      
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          
+          <span style={{ color: darkMode ? "white" : "" }}>Hi! Myself</span>
+          <span>Raj Utekar</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            <span className="hihlit">Frontend Developer</span> with a keen interest in web designing
+            and development and also a <span className="hihlit">Data Analyst</span>
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
         </Link>
-        {/* social icons */}
+        
         <div className="i-icons">
-          <img src={Github} alt="" />
+          <a href="https://github.com/rajUtekar29">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/raj-utekar-a932b72a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
           <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          </a>
+          <a href="mailto:rajutekar2903@gmail.com">
+          <img src={gmail1} alt="" className="whatsapp"/>
+          </a>
         </div>
       </div>
       {/* right image side */}
@@ -52,9 +57,8 @@ const Intro = () => {
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
+          whileInView={{ left: "-1%" }}
           transition={transition}
-          src={glassesimoji}
           alt=""
         />
 
@@ -64,7 +68,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={react} text1="Web" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -74,8 +78,8 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          
+          <FloatinDiv img={thumbup} text1="Data" text2="Analyst" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

@@ -31,9 +31,13 @@
   font-size: 14px;
   margin-top: 1rem;
 }
+.s-tags{
+  font-size: 14px;
+  color: rgb(70, 70, 26);
+}
 .s-button {
   width: 8rem;
-  height: 2rem;
+  height: 4rem;
   margin-top: 1rem;
 }
 /* right sided */

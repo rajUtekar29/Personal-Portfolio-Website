@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import DesignImg from "../../img/design image.jpg";
+import CodingImg from "../../img/coding image.jpg";
+import DataImg from "../../img/data analyst.jpg";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./Raj_Resume_2903.pdf";
 
 const Services = () => {
   // context
@@ -25,14 +25,14 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span>Services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        I am proficient in web development, web designing, and data analysis,<br/> 
+        with expertise in technologies like <span className="s-tags">HTML, CSS, JavaScript, <br/>Typescript, Python, React, Java, and C/C++.</span> Additionally, <br/>I have experience using tools like <span className="s-tags">Power BI and Tableau </span><br/>to create interactive dashboards and reports, allowing me to deliver <br/>comprehensive and user-friendly solutions. 
+        
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">My Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -45,9 +45,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
+            emoji={DesignImg}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={"Figma, Sketch, Photoshop"}
           />
         </motion.div>
         {/* second card */}
@@ -57,9 +57,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
+            emoji={CodingImg}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={"Html, CSS, JavaScript, React, Python"}
           />
         </motion.div>
         {/* 3rd */}
@@ -69,11 +69,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            emoji={DataImg}
+            heading={"Data Analyst"}
+            detail={"PowerBI, Excel, Tableau"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
